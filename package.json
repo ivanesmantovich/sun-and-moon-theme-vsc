@@ -1,0 +1,30 @@
+{
+  "name": "sun-and-moon-theme",
+  "displayName": "Sun and Moon",
+  "description": "Long ago, people lived in peace, bathed in the warmth of light.",
+  "version": "0.0.1",
+  "publisher": "ive",
+  "keywords": [
+    "theme",
+    "light theme",
+    "minimalistic theme",
+    "blue theme",
+    "orange theme"
+  ],
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sun and Moon",
+        "uiTheme": "vs",
+        "path": "./themes/Sun and Moon-color-theme.json"
+      }
+    ]
+  }
+}
